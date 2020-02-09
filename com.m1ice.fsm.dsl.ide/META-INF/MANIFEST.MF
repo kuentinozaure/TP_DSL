@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.m1ice.fsm.dsl.ide
+Bundle-ManifestVersion: 2
+Bundle-Name: com.m1ice.fsm.dsl.ide
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.m1ice.fsm.dsl.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.m1ice.fsm.dsl,
+ com.m1ice.fsm,
+ org.eclipse.xtext.ide,
+ org.eclipse.xtext.xbase.ide,
+ org.antlr.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.m1ice.fsm.dsl.ide.contentassist.antlr.internal,
+ com.m1ice.fsm.dsl.ide.contentassist.antlr
+

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.m1ice.fsm.dsl
+Bundle-ManifestVersion: 2
+Bundle-Name: com.m1ice.fsm.dsl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.m1ice.fsm.dsl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.m1ice.fsm,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib;bundle-version="2.14.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.m1ice.fsm.dsl,
+ com.m1ice.fsm.dsl.validation,
+ com.m1ice.fsm.dsl.scoping,
+ com.m1ice.fsm.dsl.generator,
+ com.m1ice.fsm.dsl.services,
+ com.m1ice.fsm.dsl.serializer,
+ com.m1ice.fsm.dsl.parser.antlr.internal,
+ com.m1ice.fsm.dsl.parser.antlr,
+ com.m1ice.fsm.dsl.formatting2
+Import-Package: org.apache.log4j
